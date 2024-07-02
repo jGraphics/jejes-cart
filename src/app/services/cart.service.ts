@@ -17,14 +17,14 @@ export class CartService {
   private cartItemCount = new BehaviorSubject(0);
 
   private products: Product[] = [
-    { id: 0, imageUrl: 'assets/images/pa.png', name: 'Pizza Salami', price: 8.99, quantity: 0 },
-    { id: 1, imageUrl: 'assets/images/pc.png', name: 'Pizza Classic', price: 5.49, quantity: 0 },
-    { id: 2, imageUrl: 'assets/images/pe.png',  name: 'Sliced Bread', price: 4.99, quantity: 0 },
-    { id: 3, imageUrl: 'assets/images/pca.png', name: 'Salad', price: 6.99, quantity: 0 },
-    { id: 4, imageUrl: 'assets/images/pe.png', name: 'Pizza Salami', price: 8.99, quantity: 0 },
-    { id: 5, imageUrl: 'assets/images/pl.png', name: 'Pizza Classic', price: 5.49, quantity: 0 },
-    { id: 6, imageUrl: 'assets/images/pw.png',  name: 'Sliced Bread', price: 4.99, quantity: 0 },
-    { id: 7, imageUrl: 'assets/images/ppp.png', name: 'Salad', price: 6.99, quantity: 0 }
+    { id: 0, imageUrl: 'assets/images/pa.png', name: 'Guitar Pick', price: 8.99, quantity: 0 },
+    { id: 1, imageUrl: 'assets/images/pc.png', name: 'Coding Laptop', price: 5.49, quantity: 0 },
+    { id: 2, imageUrl: 'assets/images/pe.png',  name: 'Noiseless Headphone', price: 4.99, quantity: 0 },
+    { id: 3, imageUrl: 'assets/images/pca.png', name: 'EOS Camera', price: 6.99, quantity: 0 },
+    { id: 4, imageUrl: 'assets/images/pe.png', name: 'Wired Headphone', price: 8.99, quantity: 0 },
+    { id: 5, imageUrl: 'assets/images/pl.png', name: '2 IN 1 Laptop', price: 5.49, quantity: 0 },
+    { id: 6, imageUrl: 'assets/images/pw.png',  name: 'Designer Watch', price: 4.99, quantity: 0 },
+    { id: 7, imageUrl: 'assets/images/ppp.png', name: 'Smartphones', price: 6.99, quantity: 0 }
   
   ];
 
