@@ -12,12 +12,14 @@
 https://github.com/jGraphics/jejes-cart/assets/89115888/cca3cf34-5075-44f5-99da-2869e8edbb4a
 
 <h3 align="left">Features </h3>
-• Browse a list of products with images, names, and prices.
-• Add items to the cart from the Products page.
-• View and manage items in the cart on the Checkout page.
-• Increase or decrease the quantity of items in the cart.
-• Remove items from the cart.
-• Navigate to an Order Successful screen from the Checkout page.
+<ul>
+<li>Browse a list of products with images, names, and prices</li>
+<li>Add items to the cart from the Products page. </li>
+<li>View and manage items in the cart on the Checkout page. </li>
+<li>Increase or decrease the quantity of items in the cart. </li>
+<li>Remove items from the cart. </li>
+<li> Navigate to an Order Successful screen from the Checkout page.</li>
+</ul>.
 
 
 <h3 align="left">Prerequisites </h3>
