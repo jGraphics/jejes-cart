@@ -21,18 +21,23 @@ https://github.com/jGraphics/jejes-cart/assets/89115888/cca3cf34-5075-44f5-99da-
 
 
 <h3 align="left">Prerequisites </h3>
-<p>Before running this app, ensure you have the following installed:
+<h4>Before running this app, ensure you have the following installed:</h4>
 
-Node.js: Download and install Node.js
-Ionic CLI: Install globally using npm install -g @ionic/cli
-Cordova CLI: Install globally using npm install -g cordova
-How to run the project, first clone, then run the command "npm install".
-Next run "ionic serve".
+<ul>
+<li>Node.js: Download and install Node.js</li>
+<li>Ionic CLI: Install globally using npm install -g @ionic/cli </li>
+<li>Cordova CLI: Install globally using npm install -g cordova </li>
+<h4><li>How to run the project,</li></h4>
+<li>first clone this repo</li>
+<li>then run the command "npm install". </li>
+<li>Next run "ionic serve".</li>
 
-To build the app, use command
-"ionic cordova build android"
+<h4><li>To build the app </li></h4>
+<li>use command "ionic cordova build android"</li>
+</ul>
+
 Enjoy.
-</p>
+
 
 See App live <a href="https://appetize.io/app/dwujbdm6chbe7iejbrdzhaqcqm?device=pixel7&osVersion=13.0" target="_blank" rel="noreferrer">here </a>.
 
