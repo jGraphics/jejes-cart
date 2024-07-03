@@ -36,6 +36,38 @@ Enjoy.
 
 See App live <a href="https://appetize.io/app/dwujbdm6chbe7iejbrdzhaqcqm?device=pixel7&osVersion=13.0" target="_blank" rel="noreferrer">here </a>.
 
+
+<h3 align="left">Project Structure</h3>
+<ul>
+<li>src/app: Contains the main app code, including components, services, and routing.</li>
+<li>src/app/services: Contains the CartService for managing products and cart operations.</li>
+<li>src/app/pages/products: Contains the ProductsPage component for displaying products.</li>
+<li>src/app/pages/checkout: Contains the CheckoutPage component for managing the cart and checkout process.</li>
+<li>src/app/tabs: Contains the TabsPage component for bottom navigation.</li>
+</ul>
+
+<h3 align="left">Key Components</h3>
+<ul>
+<h4><li>ProductsPage</li></h4>
+<li>Displays a list of products.</li>
+<li>Allows users to add products to the cart.</li>
+  
+<h4><li>CheckoutPage</li></h4>
+<li>Displays items added to the cart.</li>
+<li>Allows users to increase or decrease item quantities.</li>
+<li>Allows users to remove items from the cart.</li>
+<li>Provides a button to proceed to an Order Successful screen.</li>
+  
+<h4><li>CartService</li></h4>
+<li>Manages the list of products and the cart.</li>
+<li>Provides methods to add, remove, and update items in the cart.</li>
+<li>Uses BehaviorSubject to manage the cart item count.</li>
+</ul>
+<h3>Contact</h3>
+
+For any questions or issues with the code, please contact me [Peggy - Jejelove] at [jejelovegraphics@gmail.com].
+
+
 <h3 align="left">Technologies Used</h3>
 Ionic Framework: A popular framework for building mobile applications using web technologies.
 Angular: A platform and framework for building single-page client applications using HTML and TypeScript.
