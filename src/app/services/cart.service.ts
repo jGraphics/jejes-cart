@@ -18,13 +18,13 @@ export class CartService {
 
   private products: Product[] = [
     { id: 0, imageUrl: 'assets/images/pa.png', name: 'Guitar Pick', price: 8.99, quantity: 0 },
-    { id: 1, imageUrl: 'assets/images/pc.png', name: 'Coding Laptop', price: 5.49, quantity: 0 },
-    { id: 2, imageUrl: 'assets/images/pe.png',  name: 'Noiseless Headphone', price: 4.99, quantity: 0 },
-    { id: 3, imageUrl: 'assets/images/pca.png', name: 'EOS Camera', price: 6.99, quantity: 0 },
-    { id: 4, imageUrl: 'assets/images/pe.png', name: 'Wired Headphone', price: 8.99, quantity: 0 },
-    { id: 5, imageUrl: 'assets/images/pl.png', name: '2 IN 1 Laptop', price: 5.49, quantity: 0 },
-    { id: 6, imageUrl: 'assets/images/pw.png',  name: 'Designer Watch', price: 4.99, quantity: 0 },
-    { id: 7, imageUrl: 'assets/images/ppp.png', name: 'Smartphones', price: 6.99, quantity: 0 }
+    { id: 1, imageUrl: 'assets/images/pc.png', name: 'Coding Laptop', price: 1785.49, quantity: 0 },
+    { id: 2, imageUrl: 'assets/images/pe.png',  name: 'Noiseless Headphone', price: 299.99, quantity: 0 },
+    { id: 3, imageUrl: 'assets/images/pca.png', name: 'EOS Camera', price: 987.99, quantity: 0 },
+    { id: 4, imageUrl: 'assets/images/pe.png', name: 'Wired Headphone', price: 89.99, quantity: 0 },
+    { id: 5, imageUrl: 'assets/images/pl.png', name: '2 IN 1 Laptop', price: 2195.49, quantity: 0 },
+    { id: 6, imageUrl: 'assets/images/pw.png',  name: 'Designer Watch', price: 4300.00, quantity: 0 },
+    { id: 7, imageUrl: 'assets/images/ppp.png', name: 'Smartphones', price: 1780.99, quantity: 0 }
   
   ];
 

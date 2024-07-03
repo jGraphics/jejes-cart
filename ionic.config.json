@@ -1,5 +1,7 @@
 {
   "name": "jejes-cart",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
