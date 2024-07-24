@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning">
+    <ion-title>
+      Products from Timbu
+    </ion-title>
+  </ion-toolbar>
+  <div><br></div>
+  <ion-toolbar>
+    <ion-searchbar animated="true" placeholder="search products"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Featured Products</h1>
+
+  <h3>Change to top product slider</h3>
+  <img
+    alt="rhino standing near grass"
+    src="https://images.unsplash.com/flagged/photo-1556983257-71fddc36bc75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+  />
+  <p>
+    <swiper-container pager="true" [options]="slideOpts">
+      <swiper-slide *ngFor="let product of products">
+        <ion-card (click)="goToProductDetails(product.id)">
+          <ion-img [src]="product.photos[0].url"></ion-img>
+          <ion-card-header>
+            <ion-card-title>{{ product.name }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>{{ product.description }}</p>
+            <ion-button (click)="addToCart(product)" expand="block">Add to Cart</ion-button>
+          </ion-card-content>
+        </ion-card>
+      </swiper-slide>
+    </swiper-container>
+
+  <ion-infinite-scroll (ionInfinite)="loadMore($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data..."></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Checkout Page
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let p of cart">
+      <ion-thumbnail slot="start">
+        <img [src]="p.photos[0].url" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ p.name }}</h2>
+        <p>{{ p.price | currency }}</p>
+        <ion-row>
+          <ion-button size="small" (click)=" decreaseCartItem(p)">
+            <ion-icon slot="icon-only" name="remove"></ion-icon>
+          </ion-button>
+          <ion-label>{{ p.quantity }}</ion-label>
+          <ion-button size="small" (click)="increaseCartItem(p)">
+            <ion-icon slot="icon-only" name="add"></ion-icon>
+          </ion-button>
+        </ion-row>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-item>
+    <ion-label>
+      Total: {{ getTotal() | currency }}
+    </ion-label>
+  </ion-item>
+
+  <ion-button expand="block" (click)="checkout()">Checkout</ion-button>
+</ion-content>
